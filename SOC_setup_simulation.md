@@ -21,6 +21,11 @@ This guide documents the technical setup of the SOC components used in the proje
   - `192.168.132.0/24` → User LAN (Users)
   - `192.168.134.0/24` → SOC LAN (Splunk, Syslog, Wazuh, Zabbix, SOAR)
 
+  
+| Infrastructure schema example       |
+|-------------------------------------|
+| ![infrastructure_example](media/infrastructure_example.png) |
+
 ---
 
 ## 🧩 Components and Setup
@@ -94,6 +99,12 @@ docker-compose up -d
 - Execute remote SSH command to block IP on firewall
 - Send email to SOC
 
+
+
+| another Shuffle workflow example            |
+|-------------------------------------|
+| ![shuffle_playbook](media/shuffle_playbook.png) |
+
 ---
 
 ### 📊 4. Zabbix (Monitoring)
@@ -107,6 +118,11 @@ docker-compose up -d
 #### Configuration:
 - Host templates: Linux OS, SSH service
 - Triggers: memory usage, CPU load, service down
+
+
+| Zabbix monitoring dashboard          |
+|--------------------------------------|
+| ![zabbix_dashboard](media/zabbix_dashboard.png) |
 
 ---
 

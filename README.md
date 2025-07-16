@@ -43,22 +43,15 @@ This project aims to **set up a functional SOC (Security Operations Center)** in
 7. **OpenVAS** performs regular vulnerability scans to detect weaknesses in the infrastructure; results are used to proactively patch systems.
 8. In case of a detected compromise, **Autopsy** is used to perform forensic analysis on disk images of affected systems to identify traces of attacker activity.
 
-
 ---
 
-## 📸 Screenshots
+## 📸 Schema
 
-| Infrastructure schema example       |
+
+| SOC Schema       |
 |-------------------------------------|
-| ![infrastructure_example](media/infrastructure_example.png) |
+| ![soc_schema](media/soc_schema.png) |
 
-| Zabbix monitoring dashboard          |
-|--------------------------------------|
-| ![zabbix_dashboard](media/zabbix_dashboard.png) |
-
-| Shuffle workflow example            |
-|-------------------------------------|
-| ![shuffle_playbook](media/shuffle_playbook.png) |
 
 ---
 
