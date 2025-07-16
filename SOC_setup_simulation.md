@@ -19,7 +19,7 @@ This guide documents the technical setup of the SOC components used in the proje
   - `192.168.130.0/24` → Server LAN (AD, Mail)
   - `192.168.131.0/24` → Admin LAN (Admin hosts)
   - `192.168.132.0/24` → User LAN (Users)
-  - `192.168.134.0/24` → SOC LAN (Splunk, Syslog, Wazuh, SOAR)
+  - `192.168.134.0/24` → SOC LAN (Splunk, Syslog, Wazuh, Zabbix, SOAR)
 
 ---
 
